@@ -1,4 +1,5 @@
 openapi-generator generate \
 -g swift5 \
 -i petstore.yml \
--o PetstoreAPIClient
+-o PetstoreAPIClient \
+-c config.yml
